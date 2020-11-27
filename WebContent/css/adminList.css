@@ -1,0 +1,49 @@
+@charset "utf-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{ font-family: 'Raleway', sans-serif;
+   max-width: 100%;
+}
+ 
+.jumbotron{
+  background-image: url(../image/000db31490743d228b62590814f6abc4.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.img-thumbnail{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.wine{
+  margin:auto;
+  margin-bottom:80px;
+  text-align:center;
+}
+
+h3{
+  margin:auto;
+  padding-bottom: 80px;
+}
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+}
+
+td,th{
+  border-top:1px solid #666;
+  padding:10px;
+  font-weight:100;
+}
+tr:last-child td,
+tr:last-child th{
+  border-bottom:1px solid #666;  
+}
+

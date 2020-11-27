@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{ font-family: 'Raleway', sans-serif;
+   max-width: 100%;
+}
+
+
+.jumbotron{
+    background-image: url(../image/000db31490743d228b62590814f6abc4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+
+
+.img-thumbnail{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+.upload-img-btn {
+  margin: 12px auto;
+  padding: 5px 5px;
+  border-radius: 4px;
+  max-width: 120px;
+  text-align: center;
+  display: block;
+  background-color: #f1f1f1;
+  color: black;
+  font-weight:bold;
+  box-shadow:  0 2px 6px rgba(146, 146, 146, 0.8);
+  cursor: pointer;
+  margin-left: 170px;
+}
+
+.upload-img-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+form{
+  padding:30px 50px;
+}
+
+form dl dt{
+  width: 165px;
+  padding:5px;
+  float:left;
+  clear:both;
+  font-weight:200;
+}
+
+form dl dd{
+  padding:10px 0;
+}
+
+div.submit{
+  padding: 20px;
+  margin-left:165px;
+}
+
+

@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{ font-family: 'Raleway', sans-serif;
+
+}
+
+
+.jumbotron{
+    background-image: url(../image/000db31490743d228b62590814f6abc4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+
+
+.img-thumbnail{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+.wine{
+  position: relative;
+  border: 1px solid white;
+  width: 300px;
+  height: 226px;
+  margin: 1em 1px;
+  overflow: hidden;
+  margin:20px;
+}
+
+.wine p{
+  color: white;
+  font-size: 30px;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+
+.wine img{
+  width: 100%;
+  transform: scale(1.1);
+  cursor: pointer;
+  filter: blur(4px);
+  transition-duration: 0.5s;
+}
+.wine img:hover{
+  filter: blur(0);
+  transition-duration: 0.5s;
+}
